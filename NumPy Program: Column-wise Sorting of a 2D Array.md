@@ -13,7 +13,15 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 
 ## 🧾 Program
 Add code here
-
+```
+import numpy as np
+a=eval(input())
+array = np.array(a)
+print('Given array','\n',array)
+print()
+print(np.sort(array,axis=0))
+```
 ## Output
+<img width="914" height="682" alt="image" src="https://github.com/user-attachments/assets/30ca9505-89be-400e-986d-0bcd344a4886" />
 
 ## Result
